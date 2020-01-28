@@ -28,6 +28,7 @@ namespace BoosterBoxer
             {
                 using (SQLiteConnection conn = new SQLiteConnection("Data Source=" + dbpath + ";"))
                 {
+                    //get set information
                     using (SQLiteCommand cmd = new SQLiteCommand("SELECT * FROM Sets", conn))
                     {
                         conn.Open();
