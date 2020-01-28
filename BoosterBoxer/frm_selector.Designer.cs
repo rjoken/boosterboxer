@@ -103,7 +103,7 @@
             this.MaximizeBox = false;
             this.Name = "frm_selector";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "PackDraft";
+            this.Text = "BoosterBoxer";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudPacksToOpen)).EndInit();
             this.ResumeLayout(false);

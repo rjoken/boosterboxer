@@ -155,7 +155,7 @@
             this.MaximizeBox = false;
             this.Name = "frm_viewer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "PackDraft Results";
+            this.Text = "BoosterBoxer Results";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
