@@ -55,9 +55,9 @@
             this.lblName.AutoSize = true;
             this.lblName.Location = new System.Drawing.Point(303, 13);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(35, 13);
+            this.lblName.Size = new System.Drawing.Size(60, 13);
             this.lblName.TabIndex = 1;
-            this.lblName.Text = "label1";
+            this.lblName.Text = "Card Name";
             // 
             // rtbDesc
             // 
@@ -73,27 +73,27 @@
             this.lblAtk.AutoSize = true;
             this.lblAtk.Location = new System.Drawing.Point(303, 134);
             this.lblAtk.Name = "lblAtk";
-            this.lblAtk.Size = new System.Drawing.Size(35, 13);
+            this.lblAtk.Size = new System.Drawing.Size(63, 13);
             this.lblAtk.TabIndex = 3;
-            this.lblAtk.Text = "label1";
+            this.lblAtk.Text = "Card Attack";
             // 
             // lblDef
             // 
             this.lblDef.AutoSize = true;
             this.lblDef.Location = new System.Drawing.Point(303, 147);
             this.lblDef.Name = "lblDef";
-            this.lblDef.Size = new System.Drawing.Size(35, 13);
+            this.lblDef.Size = new System.Drawing.Size(72, 13);
             this.lblDef.TabIndex = 4;
-            this.lblDef.Text = "label1";
+            this.lblDef.Text = "Card Defense";
             // 
             // lblRarity
             // 
             this.lblRarity.AutoSize = true;
             this.lblRarity.Location = new System.Drawing.Point(303, 160);
             this.lblRarity.Name = "lblRarity";
-            this.lblRarity.Size = new System.Drawing.Size(35, 13);
+            this.lblRarity.Size = new System.Drawing.Size(59, 13);
             this.lblRarity.TabIndex = 5;
-            this.lblRarity.Text = "label1";
+            this.lblRarity.Text = "Card Rarity";
             // 
             // btnSort
             // 

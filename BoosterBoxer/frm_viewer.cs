@@ -129,8 +129,9 @@ namespace BoosterBoxer
 
         private void updateDetails()
         {
+            string cardTextNoBackslash = pulls[lbxCards.SelectedIndex].getCardText().Replace("\\", String.Empty);
             lblName.Text = pulls[lbxCards.SelectedIndex].displayName;
-            rtbDesc.Text = $"{pulls[lbxCards.SelectedIndex].getCardID()}\n{Consts.GetStringValue(pulls[lbxCards.SelectedIndex].getAttrib())} {Consts.GetStringValue(pulls[lbxCards.SelectedIndex].getClass())} {Consts.GetStringValue(pulls[lbxCards.SelectedIndex].getType())}\n{pulls[lbxCards.SelectedIndex].getCardText()}";
+            rtbDesc.Text = $"{pulls[lbxCards.SelectedIndex].getCardID()}\n{Consts.GetStringValue(pulls[lbxCards.SelectedIndex].getAttrib())} {Consts.GetStringValue(pulls[lbxCards.SelectedIndex].getClass())} {Consts.GetStringValue(pulls[lbxCards.SelectedIndex].getType())}\n{cardTextNoBackslash}";
             lblAtk.Text = $"ATK {pulls[lbxCards.SelectedIndex].getAttack()}";
             lblDef.Text = $"DEF {pulls[lbxCards.SelectedIndex].getDefense()}";
             lblRarity.Text = $"Rarity: {Consts.GetStringValue(pulls[lbxCards.SelectedIndex].getRarity())}";
